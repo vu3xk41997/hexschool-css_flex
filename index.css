@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 1024px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+a:link {
+    color: rgb(0, 213, 157);
+}
+
+a:hover{
+    color: rgba(155, 155, 155, 0.3);
+}
+
+a:visited {
+    color: rgb(0, 213, 157);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#content_info ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+    padding: 8px 24px;
+}
+
+#content_info li {
+    list-style-type: none;
+    margin: 8px;
+    font-size: 16px;
+}
+
+#banner {
+    position: relative;
+    text-align: left;
+    color: white;
+    height: 400px;
+}
+
+#banner img {
+    height: 400px;
+}
+
+#banner h1 {
+    position: absolute;
+    top: 50%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+}
+
+#feature {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.element {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 24px;
+    flex: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.element image {
+    height: 100px;
+    width: auto;
+}
+
+#jquary ul {
+    padding-left: 0;
+}
+
+#jquary li {
+    list-style-position: inside;
+    text-indent: 10px;
+}
+
+#compare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#table {
+    border-collapse: collapse;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+#table th {
+    padding: 8px 48px;
+    background: rgb(0, 213, 157);
+    justify-content: center;
+}
+
+#table td {
+    padding: 8px 48px;
+    justify-content: center;
+}
+
+.better {
+    color: rgb(0, 213, 157);
+}
+
+.even {
+    background: rgba(155, 155, 155, 0.3);
+}
+
+#contact {
+    padding: 24px 48px 48px 48px;
+    background: rgb(0, 213, 157);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contact h2 {
+    color: whitesmoke;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+#message textarea {
+    resize: none;
+    height: 100%;
+    width: 500px;
+    font-size: 16px;
+}
+
+#client_info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: space-around;
+}
+
+.info {
+   flex: 1;
+}
+
+label {
+    color: whitesmoke;
+}
+
+#name, #phone, #email {
+    width: 500px;
+    font-size: 16px;
+    height: 24px;
+}
+
+#submit {
+    margin: auto 200px;
+    padding: 12px 32px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 24px 24px 0px;
+}
